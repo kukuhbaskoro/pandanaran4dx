@@ -1,5 +1,10 @@
 import {
-  IconAperture, IconCopy, IconLayoutDashboard, IconLogin, IconMoodHappy, IconTypography, IconUserPlus
+  IconAperture, 
+  IconLayoutDashboard, 
+  IconLogin, 
+  IconMoodHappy, 
+  IconTrophy, 
+  IconUserPlus
 } from '@tabler/icons-react';
 
 import { uniqueId } from 'lodash';
@@ -18,25 +23,19 @@ const Menuitems = [
   },
   {
     navlabel: true,
-    subheader: 'Utilities',
+    subheader: 'RANK',
   },
   {
     id: uniqueId(),
-    title: 'Typography',
-    icon: IconTypography,
+    title: 'Rank KCP',
+    icon: IconTrophy,
     href: '/utilities/typography',
   },
   {
     id: uniqueId(),
-    title: 'Shadow',
-    icon: IconCopy,
+    title: 'Rank RM Dana',
+    icon: IconTrophy,
     href: '/utilities/shadow',
-  },
-  {
-    id: uniqueId(),
-    title: 'Marketing',
-    icon: IconCopy,
-    href: '/utilities/marketing',
   },
   {
     navlabel: true,
@@ -56,19 +55,43 @@ const Menuitems = [
   },
   {
     navlabel: true,
-    subheader: 'Extra',
+    subheader: 'Input',
   },
   {
     id: uniqueId(),
-    title: 'Icons',
+    title: 'QRIS',
     icon: IconMoodHappy,
-    href: '/icons',
+    href: '/input/qris',
   },
   {
     id: uniqueId(),
-    title: 'Sample Page',
+    title: 'EDC',
     icon: IconAperture,
-    href: '/sample-page',
+    href: '/input/edc',
+  },
+  {
+    id: uniqueId(),
+    title: 'Kunjungan QRIS',
+    icon: IconAperture,
+    href: '/input/kunjungan-qris',
+  },
+  {
+    id: uniqueId(),
+    title: 'Kunjungan EDC',
+    icon: IconAperture,
+    href: '/input/kunjungan-edc',
+  },
+  {
+    id: uniqueId(),
+    title: 'Kunjungan Ekosistem',
+    icon: IconAperture,
+    href: '/input/kunjungan-ekosistem',
+  },
+  {
+    id: uniqueId(),
+    title: 'BRIMO',
+    icon: IconAperture,
+    href: '/input/brimo',
   },
 ];
 

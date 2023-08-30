@@ -10,6 +10,7 @@ import ProductPerformance from '../src/components/dashboard/ProductPerformance';
 // import Blog from '../src/components/dashboard/Blog';
 import MonthlyEarnings from '../src/components/dashboard/MonthlyEarnings';
 import FullLayout from '../src/layouts/full/FullLayout';
+import Progress from '../src/components/dashboard/Progress';
 
 export default function Home() {
   return (
@@ -37,6 +38,9 @@ export default function Home() {
           </Grid>
           <Grid item xs={12}>
             {/* <Blog /> */}
+          </Grid>
+          <Grid item xs={12} lg={8}>
+            <Progress />
           </Grid>
         </Grid>
       </Box>
